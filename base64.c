@@ -1,4 +1,4 @@
-#include "ft_ssl_des.h"
+#include "ft_ssl.h"
 
 void	get_crypt(uint32_t *str, char **crypt, int zero, char *mask)
 {
