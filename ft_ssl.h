@@ -7,4 +7,13 @@
 # include <stdint.h>
 # include <stdio.h>
 
+typedef struct			s_mode
+{
+	int					mode;
+	unsigned long int	key;
+	int					ifd;
+	int					ofd;
+	int					kfd;
+}						t_mode;
+
 #endif
